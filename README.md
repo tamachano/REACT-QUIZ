@@ -35,12 +35,12 @@ npm run dev…　開発用サーバーを立ち上げる
 npm install react-router-dom　react-router-domを追加するコマンド
 
 
-テンプレートリテラル
+～テンプレートリテラル～
 …文字列と変数を連結させる時の書き方（バッククォートを使う）
 <Display>
 	{`Q${quizIndex + 1}. ${quizData[quizIndex].question}`}
 </Display>
 
 
-
+～mapメソッド～
 .map()…配列要素に対して使えるJSに標準搭載されているメソッドでループ文の一種のようなもの
