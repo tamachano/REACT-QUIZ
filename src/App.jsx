@@ -4,9 +4,16 @@ import { ROUTES } from './const';
 import HomePage from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 import ResultPage from './pages/ResultPage';
+import { useEffect } from 'react';
 
 
 function App() {
+  
+useEffect(() => {
+  localStorage.removeItem('quizState');
+}, []);
+
+
   return (
     <BrowserRouter>
       <Routes>
